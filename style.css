@@ -1,1 +1,182 @@
+.content{
+    /* border: 1px black solid; */
+    width:800px;
+} 
+
+nav{
+    width:100%;
+    background-color:grey;
+    display:flex;
+    justify-content: space-around;
+}
+
+.logo{
+    text-align:right;
+}
+
+
+
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:space-between;
+    width:70%;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+}
+
+.hero {
+    margin-top: 5em;
+}
+
+.hero img{
+    max-width:100%;
+}
+
+.image-select{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-select img{
+    width:90%;
+    margin:10px;
+    /* border: 1px black solid; */
+}
+
+.new-products{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.spotlight{
+    /* border:1px black solid; */
+    max-width:45%;
+    margin : 15px 0;
+}
+
+.videos{
+    text-align:center;
+    margin-top: 5em;
+}
+
+.video{
+    /* border:1px black solid; */
+    width:20%;
+
+}
+
+.four-video{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+h2{
+    text-align: center;
+}
+
+.customer-stories{
+    margin-top: 5em;
+}
+
+.articles{
+    display:flex;
+    justify-content:space-around;
+    
+}
+
+.main-article{
+ max-width:45%;
+}
+
+.three-section{
+    max-width:50%;
+    height:40%;
+}
+
+.placeholder-one{
+    /* border:1px black solid; */
+    width:100%;
+}
+
+.placeholder{
+    /* border:1px black solid; */
+    max-width:50%;
+    height:100%;
+}
+
+.small-article{
+    /* border:1px black solid; */
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+    max-height:250px;
+}
+
+.splice{
+    padding:3em 0;
+    margin-top: 5em;
+    background-color:#24206e;
+    color:white;
+    text-align:center;
+}
+
+
+
+.splice-image{
+    width:100%;
+    margin:3em 0;
+}
+
+.four-section{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.four-section div{
+    max-width:100%;
+    padding:10px;
+    
+}
+
+footer{
+    padding:3em;
+    background-color:#b5b5b5;
+}
+
+.links {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    text-align:center;
+}
+
+.links ul{
+    list-style:none;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.two-section{
+    display:flex;
+    justify-content:space-between;
+}
+
+.two-section div{
+    max-width:45%;
+}
+
+.policy p{
+    font-size: 10px;
+}
+
+.social{
+    text-align:right;
+}
 
